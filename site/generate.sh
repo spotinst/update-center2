@@ -52,7 +52,7 @@ mkdir -p "$MAIN_DIR"/tmp/
 
 rm -rf "$MAIN_DIR"/tmp/generator/
 rm -rf "$MAIN_DIR"/tmp/generator.zip
-wget --no-verbose -O "$MAIN_DIR"/tmp/generator.zip "https://repo.jenkins-ci.org/releases/org/jenkins-ci/update-center2/3.4.4/update-center2-3.4.4-bin.zip"
+wget --no-verbose -O "$MAIN_DIR"/tmp/generator.zip "https://repo.jenkins-ci.org/snapshots/org/jenkins-ci/update-center2/3.4.5-SNAPSHOT/update-center2-3.4.5-20200924.102611-1-bin.zip"
 unzip -q "$MAIN_DIR"/tmp/generator.zip -d "$MAIN_DIR"/tmp/generator/
 
 function execute {
